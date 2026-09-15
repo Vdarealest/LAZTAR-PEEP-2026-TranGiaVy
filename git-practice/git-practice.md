@@ -13,3 +13,7 @@ Nội dung được tạo trên feature branch.
 ## Amend Practice
 
 Đây là nội dung dùng để thực hành amend.
+
+## Cherry Pick Practice
+
+Commit này sẽ được cherry-pick sang main.
