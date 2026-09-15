@@ -17,3 +17,7 @@ Nội dung được tạo trên feature branch.
 ## Cherry Pick Practice
 
 Commit này sẽ được cherry-pick sang main.
+
+## Conflict Practice
+
+Nội dung từ main branch.
