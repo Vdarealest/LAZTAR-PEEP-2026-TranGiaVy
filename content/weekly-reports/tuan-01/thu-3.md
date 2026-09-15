@@ -49,112 +49,163 @@ weight: 2
 | Cancel the merge | Open Source Control, use the `...` menu, then choose Abort Merge |
 | Resolve conflicts manually | Review the marked conflict blocks and keep the correct final code |
 
-### Terminal thực hành
+### Ví dụ từng lệnh
+
+#### git init
+
+#### git remote
 
 ```bash
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        ./
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-$ git add git-practice/git-practice.md
-warning: could not open directory 'git-practice/git-practice/': No such file or directory
-fatal: pathspec 'git-practice/git-practice.md' did not match any files
-
-$ git commit -m "Add Git practice file"
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        ./
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-$ git switch feature/git-practice
-Switched to branch 'feature/git-practice'
-
-$ git switch main
-Switched to branch 'main'
-Your branch is up to date with 'main'.
-
-$ git merge feature/git-practice
-Updating bfb8728..ff6c94e
-Fast-forward
- git-practice/git-practice.md | 7 +++++++
- 1 file changed, 7 insertions(+)
- create mode 100644 git-practice/git-practice.md
-# Nội dung được tạo trên feature branch.
-
-$ git stash
-Saved working directory and index state WIP on main: ff6c94e add branch practice
-
-$ git stash pop
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   git-practice.md
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Dropped refs/stash@{0} (3a36cf71dd799ca14efad57754aedc0c9ada256b)
-
-$ git commit -m "Add amend practce"
-[main 2c04ea0] Add amend practce
- 1 file changed, 9 insertions(+), 1 deletion(-)
-
-$ git commit --amend -m "Add amend practice"
-[main 28392f9] Add amend practice
- Date: Tue Sep 15 13:50:52 2026 +0700
- 1 file changed, 9 insertions(+), 1 deletion(-)
-
-$ git log --oneline
-28392f9 (HEAD -> main) Add amend practice
-ff6c94e (feature/git-practice) add branch practice
-bfb8728 (origin/main, origin/HEAD) fix
-82fab61 weekly-reports
-e0933e2 Remove duplicate day 01 file
-9c3e4a7 Add initial content for Day 01, covering Git commands, TypeScript concepts, and ESLint usage
-18f0d12 Update config my own repo
-67a320a Updaload test
-b6247e3 Properly add hugo-theme-learn as git submodule
-1060471 Update baseURL to match LAZTAR-PEEP repo name
-aae8a18 first commit
-
-$ git switch -c cherry-pick-demo
-Switched to a new branch 'cherry-pick-demo'
-
-$ git cherry-pick b2acd16
-[main 290f733] Add cherry-pick practice
- Date: Tue Sep 15 13:55:36 2026 +0700
- 1 file changed, 5 insertions(+), 1 deletion(-)
-
-$ git merge conflict-demo
-Auto-merging git-practice/git-practice.md
-CONFLICT (content): Merge conflict in git-practice/git-practice.md
-Automatic merge failed; fix conflicts and then commit the result.
-
-$ git reset --soft HEAD~1
-
-$ git branch
-* main
-
-$ git fetch
-
-$ git pull
-Already up to date.
-
-$ git remote
-origin
+git remote
 ```
+
+![git remote](/images/git-practice/19-git-remote.png)
+
+#### git clone
+
+#### git fetch
+
+```bash
+git fetch
+```
+
+![git fetch](/images/git-practice/17-git-fetch.png)
+
+#### git pull
+
+```bash
+git pull
+```
+
+![git pull](/images/git-practice/18-git-pull.png)
+
+#### git status
+
+```bash
+git status
+```
+
+![git status](/images/git-practice/01-git-status.png)
+
+#### git branch
+
+```bash
+git branch
+```
+
+![git branch](/images/git-practice/04-git-branch.png)
+
+#### git switch
+
+```bash
+git switch feature/git-practice
+```
+
+![git switch feature](/images/git-practice/05-git-switch-feature.png)
+
+```bash
+git switch main
+```
+
+![git switch main](/images/git-practice/06-git-switch-main.png)
+
+```bash
+git switch -c cherry-pick-demo
+```
+
+![git switch -c](/images/git-practice/13-git-switch-c.png)
+
+#### git checkout
+
+#### git add
+
+```bash
+git add git-practice/git-practice.md
+```
+
+![git add](/images/git-practice/02-git-add.png)
+
+#### git commit
+
+```bash
+git commit -m "Add Git practice file"
+```
+
+![git commit](/images/git-practice/03-git-commit.png)
+
+```bash
+git commit -m "Add amend practce"
+```
+
+![git commit typo](/images/git-practice/10-git-commit-typo.png)
+
+#### git commit --amend
+
+```bash
+git commit --amend -m "Add amend practice"
+```
+
+![git commit --amend](/images/git-practice/11-git-commit-amend.png)
+
+#### git log
+
+```bash
+git log --oneline
+```
+
+![git log --oneline](/images/git-practice/12-git-log-oneline.png)
+
+#### git push
+
+#### git reset
+
+```bash
+git reset --soft HEAD~1
+```
+
+![git reset --soft](/images/git-practice/16-git-reset-soft.png)
+
+#### git rebase
+
+#### git rebase -i
+
+#### git stash
+
+```bash
+git stash
+```
+
+![git stash](/images/git-practice/08-git-stash.png)
+
+#### git stash pop
+
+```bash
+git stash pop
+```
+
+![git stash pop](/images/git-practice/09-git-stash-pop.png)
+
+#### git merge
+
+```bash
+git merge feature/git-practice
+```
+
+![git merge fast-forward](/images/git-practice/07-git-merge-ff.png)
+
+```bash
+git merge conflict-demo
+```
+
+![git merge conflict](/images/git-practice/15-git-merge-conflict.png)
+
+#### git cherry-pick
+
+```bash
+git cherry-pick b2acd16
+```
+
+![git cherry-pick](/images/git-practice/14-git-cherry-pick.png)
 
 ## Khó khăn gặp phải
 
