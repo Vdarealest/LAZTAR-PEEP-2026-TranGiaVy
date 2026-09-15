@@ -20,4 +20,8 @@ Commit này sẽ được cherry-pick sang main.
 
 ## Conflict Practice
 
+<<<<<<< HEAD
 Nội dung từ main branch.
+=======
+Nội dung từ conflict branch.
+>>>>>>> conflict-demo
