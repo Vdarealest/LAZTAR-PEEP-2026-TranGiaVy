@@ -193,10 +193,18 @@ Có. Next.js hỗ trợ TypeScript ngay từ đầu (built-in support) — chỉ
 
 Có thể deploy lên Vercel (nền tảng chính thức, tối ưu nhất cho Next.js), hoặc các nền tảng khác như Netlify, AWS (Amplify/EC2/Lambda), Docker container tự host, Railway, Render... miễn hỗ trợ Node.js runtime (với các trang cần SSR) hoặc hosting tĩnh (nếu dùng SSG/export tĩnh).
 
+## B. Bài tập
+
+Landing page demo: [https://landing-cyan-zeta-54.vercel.app/](https://landing-cyan-zeta-54.vercel.app/)
+
 ## Khó khăn gặp phải
 
-- (Điền khó khăn gặp phải, nếu có)
+- Dễ nhầm lẫn giữa SSR, SSG và ISR vì đều liên quan đến việc tạo HTML sẵn, cần thời gian phân biệt rõ thời điểm render của từng loại.
+- Chưa phân biệt rõ ràng khi nào nên dùng Server Component và khi nào cần chuyển sang Client Component ("use client").
+- Lượng kiến thức lý thuyết khá nhiều (46 câu hỏi) nên cần thêm thời gian thực hành mới nhớ sâu được.
 
 ## Kế hoạch ngày tiếp theo
 
-- (Điền kế hoạch cho ngày tiếp theo)
+- Cài đặt dự án Next.js mới bằng `pnpm create next-app@latest` để bắt đầu phần bài tập.
+- Thực hành xây dựng landing page cơ bản với mock data và interface TypeScript phù hợp.
+- Áp dụng lại các khái niệm đã học (Server/Client Component, next/image, routing) vào bài tập thực tế.
