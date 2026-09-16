@@ -3,7 +3,7 @@ title: "Thứ 3"
 weight: 2
 ---
 
-# Ngày: Thứ 3
+# Ngày: 15/09
 
 ## Công việc đã làm
 
