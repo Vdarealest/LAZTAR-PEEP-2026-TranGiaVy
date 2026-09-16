@@ -55,63 +55,31 @@ weight: 2
 
 #### git remote
 
-```bash
-git remote
-```
-
 ![git remote](/images/git-practice/19-git-remote.png)
 
 #### git clone
 
 #### git fetch
 
-```bash
-git fetch
-```
-
 ![git fetch](/images/git-practice/17-git-fetch.png)
 
 #### git pull
-
-```bash
-git pull
-```
 
 ![git pull](/images/git-practice/18-git-pull.png)
 
 #### git status
 
-```bash
-git status
-```
-
 ![git status](/images/git-practice/01-git-status.png)
 
 #### git branch
-
-```bash
-git branch
-```
 
 ![git branch](/images/git-practice/04-git-branch.png)
 
 #### git switch
 
-```bash
-git switch feature/git-practice
-```
-
 ![git switch feature](/images/git-practice/05-git-switch-feature.png)
 
-```bash
-git switch main
-```
-
 ![git switch main](/images/git-practice/06-git-switch-main.png)
-
-```bash
-git switch -c cherry-pick-demo
-```
 
 ![git switch -c](/images/git-practice/13-git-switch-c.png)
 
@@ -119,49 +87,25 @@ git switch -c cherry-pick-demo
 
 #### git add
 
-```bash
-git add git-practice/git-practice.md
-```
-
 ![git add](/images/git-practice/02-git-add.png)
 
 #### git commit
 
-```bash
-git commit -m "Add Git practice file"
-```
-
 ![git commit](/images/git-practice/03-git-commit.png)
-
-```bash
-git commit -m "Add amend practce"
-```
 
 ![git commit typo](/images/git-practice/10-git-commit-typo.png)
 
 #### git commit --amend
 
-```bash
-git commit --amend -m "Add amend practice"
-```
-
 ![git commit --amend](/images/git-practice/11-git-commit-amend.png)
 
 #### git log
-
-```bash
-git log --oneline
-```
 
 ![git log --oneline](/images/git-practice/12-git-log-oneline.png)
 
 #### git push
 
 #### git reset
-
-```bash
-git reset --soft HEAD~1
-```
 
 ![git reset --soft](/images/git-practice/16-git-reset-soft.png)
 
@@ -171,39 +115,19 @@ git reset --soft HEAD~1
 
 #### git stash
 
-```bash
-git stash
-```
-
 ![git stash](/images/git-practice/08-git-stash.png)
 
 #### git stash pop
-
-```bash
-git stash pop
-```
 
 ![git stash pop](/images/git-practice/09-git-stash-pop.png)
 
 #### git merge
 
-```bash
-git merge feature/git-practice
-```
-
 ![git merge fast-forward](/images/git-practice/07-git-merge-ff.png)
-
-```bash
-git merge conflict-demo
-```
 
 ![git merge conflict](/images/git-practice/15-git-merge-conflict.png)
 
 #### git cherry-pick
-
-```bash
-git cherry-pick b2acd16
-```
 
 ![git cherry-pick](/images/git-practice/14-git-cherry-pick.png)
 
