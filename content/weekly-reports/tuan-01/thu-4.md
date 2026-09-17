@@ -1,9 +1,8 @@
 ---
-title: "Thứ 4"
+title: "Day 02 - 16/09/2026 (On-site)"
 weight: 3
 ---
 
-# Ngày: 16/09
 
 ## Công việc đã làm
 
@@ -197,14 +196,8 @@ Có thể deploy lên Vercel (nền tảng chính thức, tối ưu nhất cho N
 
 Landing page demo: [https://landing-cyan-zeta-54.vercel.app/](https://landing-cyan-zeta-54.vercel.app/)
 
-## Khó khăn gặp phải
+Link repo: [https://github.com/Vdarealest/LangdingPage](https://github.com/Vdarealest/LangdingPage)
 
-- Dễ nhầm lẫn giữa SSR, SSG và ISR vì đều liên quan đến việc tạo HTML sẵn, cần thời gian phân biệt rõ thời điểm render của từng loại.
-- Chưa phân biệt rõ ràng khi nào nên dùng Server Component và khi nào cần chuyển sang Client Component ("use client").
-- Lượng kiến thức lý thuyết khá nhiều (46 câu hỏi) nên cần thêm thời gian thực hành mới nhớ sâu được.
 
-## Kế hoạch ngày tiếp theo
 
-- Cài đặt dự án Next.js mới bằng `pnpm create next-app@latest` để bắt đầu phần bài tập.
-- Thực hành xây dựng landing page cơ bản với mock data và interface TypeScript phù hợp.
-- Áp dụng lại các khái niệm đã học (Server/Client Component, next/image, routing) vào bài tập thực tế.
+

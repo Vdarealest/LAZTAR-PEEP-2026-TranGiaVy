@@ -1,9 +1,7 @@
 ---
-title: "Thứ 3"
+title: "Day 01 - 15/09/2026 (On-site)"
 weight: 2
 ---
-
-# Ngày: 15/09
 
 ## Công việc đã làm
 
