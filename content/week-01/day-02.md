@@ -1,6 +1,6 @@
 ---
 title: "Day 02 - 16/09/2026 (On-site)"
-weight: 3
+weight: 2
 ---
 
 ## Work Completed

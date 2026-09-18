@@ -1,16 +1,16 @@
 ---
 title: "Day 01 - 15/09/2026 (On-site)"
-weight: 2
+weight: 1
 ---
 
-## Công việc đã làm
+## Work Completed
 
-- Tìm hiểu cấu trúc thư mục content của Hugo.
-- Thực hành tạo và chỉnh sửa file Markdown.
-- Tìm hiểu cách sử dụng theme hugo-theme-learn.
-- Kiểm tra website sau khi thay đổi nội dung.
+- Studied the structure of Hugo's content directory.
+- Practised creating and editing Markdown files.
+- Learned how to use the hugo-theme-learn theme.
+- Checked the website after changing the content.
 
-## Ví dụ thực hành Git
+## Git Practice
 
 ### Common Commands
 
@@ -39,7 +39,7 @@ weight: 2
 
 ### Merge Conflict Handling
 
-| Situation | Solution in Code Source Control |
+| Situation | Solution in Source Control |
 | --- | --- |
 | Keep changes from both branches | Open the file, edit the conflict manually, then mark it as resolved |
 | Keep the current branch version | Use Accept Current Change in the conflict editor |
@@ -47,7 +47,7 @@ weight: 2
 | Cancel the merge | Open Source Control, use the `...` menu, then choose Abort Merge |
 | Resolve conflicts manually | Review the marked conflict blocks and keep the correct final code |
 
-### Ví dụ từng lệnh
+### Example of Each Command
 
 #### git init
 
@@ -129,13 +129,13 @@ weight: 2
 
 ![git cherry-pick](/images/git-practice/14-git-cherry-pick.png)
 
-## Khó khăn gặp phải
+## Challenges Encountered
 
-- Cần làm quen với Front Matter của Hugo.
-- Một số thay đổi cần kiểm tra lại trên môi trường local.
+- Needed to get familiar with Hugo's Front Matter.
+- Some changes had to be re-checked on the local environment.
 
-## Kế hoạch ngày tiếp theo
+## Plan for the Next Day
 
-- Tiếp tục hoàn thiện weekly report.
-- Tìm hiểu cách tùy chỉnh giao diện.
-- Kiểm tra responsive và navigation của website.
+- Continue completing the weekly report.
+- Learn how to customise the theme.
+- Check the responsiveness and navigation of the website.

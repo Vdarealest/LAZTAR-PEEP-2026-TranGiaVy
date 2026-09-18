@@ -1,6 +1,6 @@
 ---
-title: "Day 02 - 16/09/2026 (On-site)"
-weight: 3
+title: "Ngày 02 - 16/09/2026 (Tại văn phòng)"
+weight: 2
 ---
 
 

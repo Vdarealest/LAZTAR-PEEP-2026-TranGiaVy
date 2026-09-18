@@ -1,6 +1,6 @@
 ---
 title: "Day 03 - 17/09/2026 (Remote)"
-weight: 4
+weight: 3
 ---
 
 # Day 03 - 17/09/2026 (Remote)
