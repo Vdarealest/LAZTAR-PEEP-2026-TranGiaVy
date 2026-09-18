@@ -1,101 +1,141 @@
-+++
-title = "Ngày 01 - 15/06/2026"
-weight = 1
-+++
-
-## Topics Learned
-
-### Git
-
-#### Các câu lệnh phổ biến
-
-| Lệnh               | Mô Tả                                            |
-| ------------------ | ------------------------------------------------ |
-| git init           | Khởi tạo kho lưu trữ Git mới                     |
-| git remote         | Quản lý kết nối kho lưu trữ từ xa                |
-| git clone          | Sao chép kho lưu trữ từ xa về máy cục bộ         |
-| git fetch          | Tải các thay đổi từ xa mà không hợp nhất         |
-| git pull           | Tải và hợp nhất các thay đổi từ xa               |
-| git status         | Hiển thị trạng thái hiện tại của kho lưu trữ     |
-| git branch         | Liệt kê, tạo hoặc xóa các nhánh                  |
-| git switch         | Chuyển sang nhánh khác                           |
-| git checkout       | Chuyển nhánh hoặc khôi phục tệp thư mục làm việc |
-| git add            | Chuẩn bị các thay đổi để commit                  |
-| git commit         | Ghi lại các thay đổi vào kho lưu trữ             |
-| git commit --amend | Sửa đổi commit cuối cùng                         |
-| git push           | Tải các commit cục bộ lên từ xa                  |
-| git reset          | Bỏ chuẩn bị hoặc đặt lại các commit              |
-| git rebase         | Áp dụng lại các commit trên một nhánh khác       |
-| git rebase -i      | Rebase tương tác để chỉnh sửa các commit         |
-| git stash          | Lưu các thay đổi chưa commit tạm thời            |
-| git stash pop      | Khôi phục các thay đổi đã lưu trữ                |
-| git merge          | Kết hợp các thay đổi từ nhánh khác               |
-| git cherry-pick    | Áp dụng các commit cụ thể từ nhánh khác          |
-
-#### Xử Lý Xung Đột Git
-
-| Tình Huống                                | Giải Pháp (Source Control)                                                                         |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Giữ lại thay đổi từ cả hai nhánh          | Mở tệp trong trình soạn thảo, chỉnh sửa thủ công để bao gồm cả hai thay đổi, rồi nhập vào dấu ✓    |
-| Giữ lại thay đổi từ nhánh hiện tại        | Di chuột qua dấu xung đột và nhập nút "Accept Current Change"                                      |
-| Giữ lại thay đổi từ nhánh đến             | Di chuột qua dấu xung đột và nhập nút "Accept Incoming Change"                                     |
-| Hủy hợp nhất và bắt đầu lại               | Nhập biểu tượng Source Control ở thanh bên, rồi nhập menu "..." và chọn "Abort Merge"              |
-| Giải quyết xung đột trong trình soạn thảo | Xung đột được đánh dấu bằng màu sắc, chỉnh sửa thủ công hoặc sử dụng giao diện giải quyết xung đột |
-
+---
+title: "Ngày 01 - 15/09/2026 (Tại văn phòng)"
+weight: 2
 ---
 
-### TypeScript
+## Công việc đã làm
 
-#### Interface vs Type
+- Tìm hiểu cấu trúc thư mục content của Hugo.
+- Thực hành tạo và chỉnh sửa file Markdown.
+- Tìm hiểu cách sử dụng theme hugo-theme-learn.
+- Kiểm tra website sau khi thay đổi nội dung.
 
-- `interface` chủ yếu dùng để định nghĩa cấu trúc object và hỗ trợ kế thừa thông qua `extends`.
-- `type` linh hoạt hơn và có thể định nghĩa object, union, tuple, kiểu primitive và kiểu function.
-- Cả hai đều có thể dùng để mô tả cấu trúc object trong TypeScript.
+## Ví dụ thực hành Git
 
-#### Union Type
+### Các lệnh thông dụng
 
-- Cho phép một biến nhận nhiều kiểu hoặc nhiều giá trị khác nhau.
-- Sử dụng toán tử `|` (OR).
+| Lệnh | Ý nghĩa |
+| --- | --- |
+| `git init` | Khởi tạo một repository Git mới |
+| `git remote` | Quản lý kết nối đến repository từ xa |
+| `git clone` | Sao chép repository từ xa về máy |
+| `git fetch` | Tải về thay đổi từ remote nhưng chưa merge |
+| `git pull` | Tải về và merge thay đổi từ remote |
+| `git status` | Xem trạng thái hiện tại của repository |
+| `git branch` | Liệt kê, tạo hoặc xoá nhánh |
+| `git switch` | Chuyển sang nhánh khác |
+| `git checkout` | Chuyển nhánh hoặc khôi phục file |
+| `git add` | Đưa thay đổi vào staging area |
+| `git commit` | Lưu thay đổi đã stage vào lịch sử repository |
+| `git commit --amend` | Cập nhật lại commit gần nhất |
+| `git push` | Đẩy commit local lên repository từ xa |
+| `git reset` | Bỏ stage hoặc di chuyển lịch sử commit |
+| `git rebase` | Áp dụng lại các commit lên đầu nhánh khác |
+| `git rebase -i` | Chỉnh sửa, gộp hoặc sắp xếp lại commit |
+| `git stash` | Cất tạm thay đổi chưa commit |
+| `git stash pop` | Lấy lại thay đổi đã cất gần nhất |
+| `git merge` | Gộp thay đổi từ nhánh khác vào nhánh hiện tại |
+| `git cherry-pick` | Áp dụng một commit cụ thể vào nhánh hiện tại |
 
-#### Omit Utility Type
+### Xử lý xung đột (Merge Conflict)
 
-- Tạo một type mới bằng cách loại bỏ một hoặc nhiều thuộc tính từ type gốc.
-- Thường dùng để tái sử dụng model hoặc ẩn các field không cần thiết.
+| Tình huống | Cách xử lý trong Source Control |
+| --- | --- |
+| Giữ thay đổi của cả hai nhánh | Mở file, sửa thủ công phần xung đột, rồi đánh dấu đã giải quyết |
+| Giữ phiên bản của nhánh hiện tại | Chọn Accept Current Change trong trình chỉnh sửa conflict |
+| Giữ phiên bản của nhánh được merge vào | Chọn Accept Incoming Change trong trình chỉnh sửa conflict |
+| Huỷ bỏ quá trình merge | Vào Source Control, chọn menu `...`, sau đó chọn Abort Merge |
+| Tự giải quyết thủ công | Xem từng khối conflict được đánh dấu và giữ lại đoạn code đúng |
 
-#### Extends
+### Ví dụ từng lệnh
 
-- Dùng để kế thừa thuộc tính từ interface khác.
-- Giúp tái sử dụng code và giảm lặp lại thuộc tính.
+#### git init
 
----
+#### git remote
 
-### ESLint
+![git remote](/images/git-practice/19-git-remote.png)
 
-#### Purpose of ESLint
+#### git clone
 
-- Công cụ static code analysis cho JavaScript/TypeScript.
-- Giúp phát hiện lỗi và cảnh báo trước khi chạy chương trình.
-- Đảm bảo code tuân thủ coding convention của dự án.
+#### git fetch
 
-#### Common Errors and Warnings
+![git fetch](/images/git-practice/17-git-fetch.png)
 
-- `no-unused-vars`: Biến khai báo nhưng không sử dụng.
-- `no-undef`: Sử dụng biến chưa khai báo.
-- `react-hooks/rules-of-hooks`: Sử dụng Hook sai quy tắc.
-- `react-hooks/exhaustive-deps`: Thiếu dependency trong `useEffect`.
-- `no-magic-numbers`: Sử dụng số hard-code không có ý nghĩa rõ ràng.
+#### git pull
 
-## Lessons Learned
+![git pull](/images/git-practice/18-git-pull.png)
 
-- Tránh **"magic number"**
-- Tránh commit node_modules.
-- Hiểu sự khác biệt giữa merge và rebase.
-- Sử dụng git add <file> thay vì git add . khi có thể.
+#### git status
 
-## Key Principles
+![git status](/images/git-practice/01-git-status.png)
 
-- Tổ chức `src/` theo tính năng hoặc loại
-- Tách các tệp cấu hình ở mức gốc
-- Luôn thêm `node_modules/` và `dist/` vào `.gitignore`
-- Sử dụng tên thư mục rõ ràng và mô tả
-- Nhóm các tệp liên quan lại với nhau để dễ dàng điều hướng
+#### git branch
+
+![git branch](/images/git-practice/04-git-branch.png)
+
+#### git switch
+
+![git switch feature](/images/git-practice/05-git-switch-feature.png)
+
+![git switch main](/images/git-practice/06-git-switch-main.png)
+
+![git switch -c](/images/git-practice/13-git-switch-c.png)
+
+#### git checkout
+
+#### git add
+
+![git add](/images/git-practice/02-git-add.png)
+
+#### git commit
+
+![git commit](/images/git-practice/03-git-commit.png)
+
+![git commit typo](/images/git-practice/10-git-commit-typo.png)
+
+#### git commit --amend
+
+![git commit --amend](/images/git-practice/11-git-commit-amend.png)
+
+#### git log
+
+![git log --oneline](/images/git-practice/12-git-log-oneline.png)
+
+#### git push
+
+#### git reset
+
+![git reset --soft](/images/git-practice/16-git-reset-soft.png)
+
+#### git rebase
+
+#### git rebase -i
+
+#### git stash
+
+![git stash](/images/git-practice/08-git-stash.png)
+
+#### git stash pop
+
+![git stash pop](/images/git-practice/09-git-stash-pop.png)
+
+#### git merge
+
+![git merge fast-forward](/images/git-practice/07-git-merge-ff.png)
+
+![git merge conflict](/images/git-practice/15-git-merge-conflict.png)
+
+#### git cherry-pick
+
+![git cherry-pick](/images/git-practice/14-git-cherry-pick.png)
+
+## Khó khăn gặp phải
+
+- Cần làm quen với Front Matter của Hugo.
+- Một số thay đổi cần kiểm tra lại trên môi trường local.
+
+## Kế hoạch ngày tiếp theo
+
+- Tiếp tục hoàn thiện weekly report.
+- Tìm hiểu cách tùy chỉnh giao diện.
+- Kiểm tra responsive và navigation của website.

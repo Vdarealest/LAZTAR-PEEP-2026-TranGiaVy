@@ -196,7 +196,7 @@ Có thể deploy lên Vercel (nền tảng chính thức, tối ưu nhất cho N
 
 Landing page demo: [https://landing-cyan-zeta-54.vercel.app/](https://landing-cyan-zeta-54.vercel.app/)
 
-Link repo: [https://github.com/Vdarealest/LangdingPage](https://github.com/Vdarealest/LangdingPage)
+Link repo: [https://github.com/Vdarealest/Portfolio](https://github.com/Vdarealest/Portfolio)
 
 
 
