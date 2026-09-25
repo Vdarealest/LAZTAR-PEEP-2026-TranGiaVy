@@ -1,5 +1,5 @@
 {{ $peepPages := len (where .Site.RegularPages "Section" "peep") }}
-{{ $weekPages := len (where .Site.RegularPages "Section" "in" (slice "week-01" "week-02" "week-03" "week-04")) }}
+{{ $weekPages := len (where .Site.RegularPages "Section" "like" "^week-") }}
 <div class="footer-block">
     <b>PEEP 2026</b><br>
     <span class="footer-counter">{{ printf "%09d" $peepPages }}</span>

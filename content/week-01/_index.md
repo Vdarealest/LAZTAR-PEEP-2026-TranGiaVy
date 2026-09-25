@@ -13,11 +13,11 @@ This week I set up the notes site and got started with the frontend stack:
 - Built this Hugo report site with the LAZTAR theme, and practised Git hands-on (branch, merge, stash, amend, cherry-pick, conflict handling).
 - Reviewed React fundamentals and compared React with Next.js (routing, rendering, SSR/SSG/ISR).
 - Built the Hạt Nâu cafe landing page with Next.js, TypeScript and typed mock data, then deployed it to Vercel.
-- Updated the diagrams for PEEP2026 project_2, studied the project's agent skills, and refactored the landing page into a component-based bilingual (EN/VI) architecture.
+- Refactored the landing page into a component-based bilingual (EN/VI) architecture.
 
 ## Daily notes
 
 - [Day 01 - 15/09/2026 (On-site)](day-01/) — Hugo site setup & Git practice
 - [Day 02 - 16/09/2026 (On-site)](day-02/) — React & Next.js theory
 - [Day 03 - 17/09/2026 (Remote)](day-03/) — Hạt Nâu landing page
-- [Day 04 - 18/09/2026 (Remote)](day-04/) — Diagrams, project skills & bilingual refactor
+- [Day 04 - 18/09/2026 (Remote)](day-04/) — Bilingual landing page refactor

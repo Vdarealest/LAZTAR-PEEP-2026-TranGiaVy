@@ -1,6 +1,6 @@
 ---
 title: "Laztar Trainee Notes"
-date: 2026-06-15
+date: 2026-09-15
 weight: 1
 chapter: false
 ---
@@ -13,11 +13,11 @@ chapter: false
 
 ### PEEP 2026 Notes
 
-This site records my notes for the first experience phase of the **Product Engineering Experience Program 2026 - Software Engineer** at LAZTAR Software & Digital Solutions Co., Ltd. ([Source Template Report](https://github.com/SharonNg1029/LAZTAR-PEEP2026-Trainee-Notes))
+This site records my notes for the first experience phase of the **Product Engineering Experience Program 2026 - Software Engineer** at LAZTAR Software & Digital Solutions Co., Ltd.
 
 PEEP is designed for students who want to grow into software engineers through real product engineering practice, mentoring, technical review, teamwork, and professional communication.
 
-- **Trainee:** Nguyen Nhat Kim Ngan
+- **Trainee:** Tran Gia Vy
 - **Program:** PEEP 2026 - Software Engineer
 - **Current Phase:** Product Engineering Experience Program
 - **Company:** LAZTAR Software & Digital Solutions Co., Ltd.
@@ -44,7 +44,5 @@ PEEP is designed for students who want to grow into software engineers through r
 1. [Resources](resources/)
 2. [Week 01](week-01/)
 3. [Week 02](week-02/)
-4. [Week 03](week-03/)
-5. [Week 04](week-04/)
 
 </div>

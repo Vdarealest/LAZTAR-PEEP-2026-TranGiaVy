@@ -4,7 +4,7 @@ Technical notes, learning summaries, and progress documentation from my trainee 
 
 ## Live Site
 
-[LAZTAR PEEP 2026 Trainee Notes](https://HuyMinhDev.github.io/LAZTAR-PEEP/)
+[LAZTAR PEEP 2026 Trainee Notes](https://Vdarealest.github.io/LAZTAR-PEEP-2026-TranGiaVy/)
 
 ## Tech Stack
 
@@ -36,9 +36,7 @@ content/
 │   ├── _index.vi.md
 │   ├── day-01.md
 │   └── day-01.vi.md
-├── week-02/
-├── week-03/
-└── week-04/
+└── week-02/
 ```
 
 - `.md` → English content
