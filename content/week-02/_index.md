@@ -6,7 +6,7 @@ chapter = true
 
 # Week 02
 
-**21/09/2026 – 24/09/2026** · 2 days on-site, 2 days remote.
+**21/09/2026 – 25/09/2026**
 
 This week I joined the Mini-WMS (FreshLink Produce) project and started Sprint 0:
 
@@ -14,6 +14,7 @@ This week I joined the Mini-WMS (FreshLink Produce) project and started Sprint 0
 - Turned the brief into technical requirements: actors, functional and non-functional requirements.
 - Sprint 0 kickoff: the team agreed on DB conventions and split into 5 domains; I own Domain B – Warehouse Structure.
 - Designed Domain B in detail: ERD, Data Dictionary, 12 business rules, and finalized the primary keys for the other domains to reference.
+- Integrated all 5 domain designs, cross-reviewed them with 8 paper test scenarios, and merged the global ERD v1.
 
 ## Daily notes
 
@@ -21,3 +22,4 @@ This week I joined the Mini-WMS (FreshLink Produce) project and started Sprint 0
 - [Day 02 - 22/09/2026 (Remote)](day-02/) — Technical & business requirements
 - [Day 03 - 23/09/2026 (On-site)](day-03/) — Sprint 0 kickoff
 - [Day 04 - 24/09/2026 (Remote)](day-04/) — Domain B detailed design
+- [Day 05 - 25/09/2026 (Integration & Review)](day-05/) — Design integration & cross-review

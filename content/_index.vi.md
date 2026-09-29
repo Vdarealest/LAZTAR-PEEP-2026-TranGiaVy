@@ -44,5 +44,6 @@ PEEP dành cho sinh viên muốn theo đuổi nghề kỹ sư phần mềm thôn
 1. [Tài nguyên](resources/)
 2. [Tuần 01](week-01/)
 3. [Tuần 02](week-02/)
+4. [Tuần 03](week-03/)
 
 </div>
