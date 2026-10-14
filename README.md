@@ -38,7 +38,8 @@ content/
 │   └── day-01.vi.md
 ├── week-02/
 ├── week-03/
-└── week-04/
+├── week-04/
+└── week-05/
 ```
 
 - `.md` → English content
