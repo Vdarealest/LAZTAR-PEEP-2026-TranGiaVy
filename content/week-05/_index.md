@@ -13,8 +13,12 @@ Continued the Mini-WMS implementation phase, reworking features to match the rea
 - Rewrote the Returns module to match the real shipment-sourced return lines, RESTOCK/SCRAP inspection, and real RBAC.
 - Rebuilt the Putaway step for multi-location Receipts, with per-line location detection and a block on putting away unverified/damaged stock.
 - Built a role-aware Warehouse Overview dashboard, fixed warehouse scope filtering, let the Warehouse Manager approve/reverse reversal entries, and added proactive capacity warnings on receiving dialogs.
+- Fixed text overflow issues across tables, badges, and the sidebar.
+- Improved responsiveness across all main screens for mobile and tablet.
 
 ## Daily notes
 
 - [Day 01 - 13/10/2026 (On-site)](day-01/) — Returns module & multi-location Receipts/Putaway
 - [Day 02 - 14/10/2026 (On-site)](day-02/) — Dashboard, role scope, reversal approval & capacity warnings
+- [Day 03 - 15/10/2026 (Remote)](day-03/) — Fixed text overflow issues
+- [Day 04 - 16/10/2026 (Remote)](day-04/) — Responsive

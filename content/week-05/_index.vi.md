@@ -13,8 +13,12 @@ Tiếp tục giai đoạn implementation Mini-WMS, sửa lại các tính năng 
 - Viết lại module Hàng hoàn trả cho khớp đúng dòng hàng trả lấy từ đơn xuất thật, kiểm định RESTOCK/SCRAP và RBAC thật.
 - Dựng lại bước Cất hàng cho Nhận hàng đa vị trí, tự nhận biết vị trí theo từng dòng và chặn cất hàng chưa kiểm định/hư hỏng.
 - Xây dashboard Tổng quan kho theo vai trò, sửa lọc phạm vi kho, cho Quản lý kho duyệt/đảo bút toán đảo, thêm cảnh báo sức chứa chủ động trong dialog nhận hàng.
+- Sửa lỗi chữ bị tràn ra ngoài khung ở các bảng, badge trạng thái và sidebar.
+- Cải thiện responsive cho toàn bộ màn hình chính trên mobile và tablet.
 
 ## Ghi chú từng ngày
 
 - [Ngày 01 - 13/10/2026 (On-site)](day-01/) — Module Hàng hoàn trả & Nhận hàng đa vị trí/Cất hàng
 - [Ngày 02 - 14/10/2026 (On-site)](day-02/) — Dashboard, phạm vi vai trò, duyệt bút toán đảo & cảnh báo sức chứa
+- [Ngày 03 - 15/10/2026 (Remote)](day-03/) — Xử lý lỗi chữ bị tràn ra ngoài khung
+- [Ngày 04 - 16/10/2026 (Remote)](day-04/) — Responsive
